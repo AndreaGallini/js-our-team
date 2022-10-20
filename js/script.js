@@ -97,7 +97,9 @@ function aggiungi(){
     
       }
     
-    
+    input1Html.value = '';
+    input2Html.value = '';
+    input3Html.value = '';
     
 
 }
