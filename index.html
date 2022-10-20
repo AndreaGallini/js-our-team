@@ -5,11 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container-md">
+        <div class="text-center text-uppercase my-margin-text">
+            <h1>Il nostro Team</h1>
+
+        </div>
+        <div id="row" class="row justify-content-center">
+
+
+        </div>
+        <div class="my-form d-flex flex-column align-items-center">
+            <div class="my-form d-flex flex-column ">
+                <label for="nome"> Inserisci il nome del nuovo membro</label>
+                    <input id="input1"class="my-margin my-input" type="text" placeholder="Nome e Cognome">
+            
+            </div>
+            <div class="my-form d-flex flex-column">
+                <label for="nome"> Inserisci il ruolo del nuovo membro</label>
+                    <input id="input2" class="my-margin my-input" type="text" placeholder="Ruolo">
+
+            </div>
+            <div class="my-form d-flex flex-column">
+                <label for="nome"> Copia l'url della tua foto( anche presa da internet )</label>
+                    <input id="input3" class="my-margin my-input" type="text" placeholder="Immagine">
+            </div>
+            <button class="btn btn-primary my-btn" id="button">Invia i dati</button>
+
+        </div>
+
+
+    </div>
 </body>
 </html>
